@@ -37,6 +37,7 @@
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:text="Eliminar"
+        android:onClick="menuEliminar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

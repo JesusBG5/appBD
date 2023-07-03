@@ -24,4 +24,8 @@ public class MainActivity extends AppCompatActivity {
         Intent obj = new Intent(this,Consultar.class);
         this.startActivity(obj);
     }
+    public void menuEliminar(View view){
+        Intent obj = new Intent(this,Eliminar.class);
+        this.startActivity(obj);
+    }
 }
